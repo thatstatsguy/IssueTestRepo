@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "TestAzureFunction", "TestAzureFunction\TestAzureFunction.fsproj", "{96EF228B-8E50-40DD-B375-7728394A7AF9}"
+EndProject
+Project("{F2A71F9B-5D33-465A-A702-920D77279786}") = "UnitTest", "UnitTest\UnitTest.fsproj", "{7B7D2D7C-17A3-49F3-B00A-6DAE53D00E1F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{96EF228B-8E50-40DD-B375-7728394A7AF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96EF228B-8E50-40DD-B375-7728394A7AF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96EF228B-8E50-40DD-B375-7728394A7AF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96EF228B-8E50-40DD-B375-7728394A7AF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B7D2D7C-17A3-49F3-B00A-6DAE53D00E1F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B7D2D7C-17A3-49F3-B00A-6DAE53D00E1F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B7D2D7C-17A3-49F3-B00A-6DAE53D00E1F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B7D2D7C-17A3-49F3-B00A-6DAE53D00E1F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
