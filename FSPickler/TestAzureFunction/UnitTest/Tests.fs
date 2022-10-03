@@ -22,12 +22,10 @@ module Tests =
             testFunction
             |> binarySerializer.Pickle<double -> double>
         
-        let binarySerializer2 = FsPickler.CreateBinarySerializer()
-        
         /// Validation that unpickling locally works fine
         let testUnpickle : double -> double =
             pickle
-            |> binarySerializer2.UnPickle<double -> double>
+            |> binarySerializer.UnPickle<double -> double>
         
         let test = testUnpickle 2.
         
